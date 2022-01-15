@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react'
 import "./style.css";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+     <Home/>
+     <AboutUs/>
+     <Contact/>
     </div>
   );
 }
