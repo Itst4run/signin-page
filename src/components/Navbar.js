@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-functiom Navbar(){
+function Navbar(){
 return(
 <nav>
 <Link to="/about">About</Link>

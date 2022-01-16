@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 export default function AboutUs(){
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       AboutUs</div>
   );
 }
