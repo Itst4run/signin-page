@@ -3,7 +3,7 @@ import "./style.css";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
-import {BrowserRouter as Router,Routs,Route} from
+import {BrowserRouter as Router,Routes,Route} from
  "react-router-dom";
 export default function App() {
   return (
@@ -14,11 +14,11 @@ export default function App() {
      <Contact/>
     </div>
     <Router>
-      <Routs>
+      <Routes>
         <Route path ="/" element={<Home/>}>
         <Route path ="/Contact" element={<Contact/>}>
         <Route path ="/about" element={<AboutUs/>}>
-        </Routs>
+        </Routes>
       </Router>
     <div/>
   );
