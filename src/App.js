@@ -3,8 +3,9 @@ import './style.css';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
-import {BrowserRouter as Router,Routes,Route} from
- "react-router-dom";
+import Navbar from './components/Navbar'; 
+import {Routes,Route, BrowserRouter as Router} from
+ 'react-router-dom';
 export default function App() {
   return (
     
