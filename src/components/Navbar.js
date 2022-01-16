@@ -9,7 +9,7 @@ return(
 <Link to="/">Home</Link>
 &nbsp;&nbsp;&nbsp;
 <Link to="/Contact">Contact</Link>
-<Link to="/Product">Product</Link>
+<Link to="/Product/1">Product</Link>
 
 
 </nav>
